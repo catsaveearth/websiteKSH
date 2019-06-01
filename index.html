@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SuHyeon_KIM🍀</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="1f609.png">
+    <link rel="stylesheet" href="twopage.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="twopage.js" charset="utf-8"></script>
+
+  </head>
+
+  <body>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!-- 밖에서 보이는 x자 표시-->
+    <div class="container" onclick="openNav()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content"></div>
+      <!-- Overlay content -->
+      <header>
+        <div class="overlay-content">
+          <a href="#main" id="btn1" onclick="closeNav()">🏠home</a>
+          <a href="#current" id="btn2" onclick="closeNav()">current</a>
+          <a href="#hobby" id="btn3" onclick="closeNav()">hobbies&like</a>
+          <a href="#ex" id="btn4" onclick="closeNav()">experience</a>
+          <a href="#contact" id="btn5" onclick="closeNav()">contact</a>
+        </div>
+      </header>
+    </div>
+
+    <section id="main">
+      <div id="container">
+        <div class="one">
+          <h1>HELLO!</h1>
+        </div>
+        <div class="myimg">
+          <img src="wow1.png" onmouseover="this.src='wow2.png'" onmouseout="this.src='wow1.png'">
+          <!--inline으로 이미지 바꾸기!!!-->
+        </div>
+      </div>
+
+      <div class="word">
+        <p>My name is kim Su Hyeon
+          <br>
+          I am becoming a developer
+          <br>
+          (Actually, I don’t know what I’m more interested in yet!)
+          <br>
+          And I have a lot of dreams and hopes
+          <br>
+          You're very lucky to have access to this site.
+          <br>
+          Enjoy it!
+        </p>
+        <br><br><br><br><br><br>
+      </div>
+    </section>
+
+    <section id="current">
+      <div>
+        <br>
+        <h2>Current</h2>
+        <br>
+        <img src="me.jpg">
+        <p>🏫 Studing in dept. of software
+          <a href="https://sw.gachon.ac.kr/cms/">💻 in Gachon Univ</a>
+        </p>
+        <p>📌 OBJECTIVE; solving one
+          <a href="https://www.acmicpc.net/user/kih629">
+            BOJ</a>
+          problem once a day.</p>
+        <p>🙏 Waiting for the final lecture only.</p>
+        <p>😂 I want to go home🏠</p>
+
+        <br><br><br><br>
+      </div>
+    </section>
+
+    <section id="hobby">
+      <div>
+        <br><br><br>
+        <h2>hobbies&like😍</h2>
+        <div>
+          <p>
+            ; my hobbies are sleeping, cleaning and read a book.📚
+            <br>
+            The last book I read is CODE : The Hidden Language of Computer Hardware and Software.
+            <br>Oh, also I usually lie down and think.
+          </p>
+        </div>
+        <div>
+          <p>
+            I like MARVLE! Then, I've seen a lot of Marvel movies so far.
+          </p>
+          <img src="https://pbs.twimg.com/media/D4SRRZ4X4AAXstX.jpg" alt="avengers emoji" class="himg">
+          <p>
+            <a href="https://www.youtube.com/watch?v=QMe8e5GcY0c">'The Real Hero'</a>
+            is my favorite OST in ENDGAME.
+            <br>
+            And My favorite character is Spiderman<img src="sman.png" alt="parker" width="20" height="20">
+            & LOKI!<img src="https://abs.twimg.com/hashflags/Avengers_Endgame_2019_Loki/Avengers_Endgame_2019_Loki.png" alt="loki" width="20" height="20">
+          </p>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3Z5Kx7O1NuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+          <p>
+            I'm looking forward Loki's drama!
+          </p>
+          <br><br><br><br>
+        </div>
+      </div>
+    </section>
+
+    <section id="ex">
+      <br><br><br>
+      <h2>Experiences</h2>
+      <div id="ppt">
+
+
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <div>
+        <br><br><br><br><br><br><br>
+        <h2>Do you want to contact me ?<br></h2>
+        <h2 class="wobble-ver-left">📞</h2>
+        <br><br><br><br><br>
+        <p>📭<a href="mailto:kih629@gc.gachon.ac.kr">
+            kih629@gc.gachon.ac.kr</a>
+        </p>
+        <p><img src="instar.png">
+          <a href="https://www.instagram.com/soooohyeonkim/">
+            @soooohyeonkim</a>
+        </p>
+        <p><img src="github.jpg" alt="">
+          <a href="https://github.com/catsaveearth">catsaveearth</a>
+        </p>
+        <br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </section>
+  </body>
+</html>
